@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de IMC</title>
+</head>
+<body style="background-color: rgb(40, 40, 40);">
+    
+    <div style="width:100%;">
+        <h1 style="color:#ffff; font-size: 25px; text-align: center; margin-bottom:30px">Calcula tu Índice de Masa Corporal </h1>
+     
+            <label style="color:#ffff; font-size: 35px; text-align: center" >Peso:</label>
+            <input style="color: #aaa;
+            border: 2px solid #aaa;
+            border-radius: 5px;
+            background: none;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 11px 24px 11px 16px;
+            width: 100%;
+            max-width: 220px;" id="peso" type="text" />
+             <label style="color:#ffff; font-size: 25px; text-align: center ; margin-left:25px">Altura:</label>
+            <input style="color: #aaa;
+            border: 2px solid #aaa;
+            border-radius: 5px;
+            background: none;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 11px 24px 11px 16px;
+            width: 100%;
+            max-width: 220px;" id="altura" type="text" /> 
+
+            <span  style="color: white;font-size:28px;"id="resultado"></span>
+
+
+        
+        </div>
+        <div style="width: 52%;display: flex; justify-content: center;">
+            <button style="font-size: 14px;margin: 15px;
+            line-height: 21px;
+            background: #0F52BA !important;
+            color: #fff;
+            border-radius: 100px;
+            border: none;
+            padding: 12px 84px 12px 84px;
+            cursor: pointer;
+            outline: 0;
+            height: max-content;"id="btnCalcular" onclick="CalcularPeso()">Calcular</button>
+            </div>
+            <script src="./imc.js"></script>
+        
+</body>
+</html>
